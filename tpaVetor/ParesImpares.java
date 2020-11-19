@@ -8,7 +8,7 @@ public class ParesImpares {
 		a = new int [E];
 		b = new int [E];
 	
-		for(i=0; i<E; i++) {
+		for(i=0; i<E; i++) { // ler o vetor A
 				System.out.println("Digite o "+(i+1)+"º valor:");
 				a[i] = in.nextInt();
 				if (a[i] % 2 == 0) {
@@ -18,7 +18,7 @@ public class ParesImpares {
 				}
 		}
 			
-		System.out.print("A = ");
+		System.out.print("A = "); // mostrar o vetor A
 		for(i=0;i<E;i++) {
 				System.out.print(a[i]+" ");
 		}
@@ -41,7 +41,7 @@ public class ParesImpares {
 		}
 		
 		System.out.println("\n");
-		System.out.print("B = ");
+		System.out.print("B = "); // mostrar o vetor B
 		for(i=0;i<E;i++) {
 				System.out.print(b[i]+" ");
 		}
