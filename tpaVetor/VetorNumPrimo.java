@@ -8,7 +8,7 @@ public class VetorNumPrimo {
 		a = new int[E];
 		
 		for(j=0; j<E; j++) {
-			System.out.println("Insira um número e veja se ele é primo ou não");
+			System.out.println("Insira um número e veja se ele é primo ou não:");
 			a[j] = in.nextInt();
 			
 			for (i=1; i<a[j]; i++) {
@@ -17,10 +17,12 @@ public class VetorNumPrimo {
 				}
 			}
 		
-			if (resto0 >= 2) {
+			if (a[j] == 1) {
 				System.out.println("O número "+a[j]+" NÃO é primo.");
-			} else {
+			} else if (resto0 <=2) {
 				System.out.println("O número "+a[j]+" é primo!");
+			} else {
+				System.out.println("O número "+a[j]+" NÃO é primo!");
 			}
 			resto0 = 0;
 		}
