@@ -28,17 +28,14 @@ public class VetorParImpar {
 			
 		for(i=0; i<E; i++) {
 				if (a[i]%2 == 0) {
-				b[contPar] = a[i];
-				contPar++;	
+					b[contPar] = a[i];
+					contPar++;	
+				} else {
+					b[contImpar] = a[i];
+					contImpar++;
 				}
 		}
 			
-		for(i=0; i<E; i++) {
-				if (a[i]%2 != 0) {
-				b[contImpar] = a[i];
-				contImpar++;
-				}
-		}
 		
 		System.out.println("\n");
 		System.out.print("B = "); // mostrar o vetor B
