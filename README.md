@@ -1,4 +1,4 @@
 # tpaExercicios
-🌠 Repositório criado com a intenção de armazenar exercícios da matéria de Técnicas de Programação e Algoritmos.
+Nesse repositório contém alguns exercícios de JAVA, na qual eu exercito minha lógica de programação usando vetores e o laços de repetição.
 
 (2020, primeiro ano na ETEC)
